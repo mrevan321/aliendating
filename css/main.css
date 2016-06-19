@@ -1,0 +1,196 @@
+
+
+*{
+overflow-x: hidden;}
+
+/*logo*/
+nav img{width: 130px;
+height: 100px;
+padding-left: 20px;
+}
+
+nav ul{padding: 20px;
+margin:0 -20px;}
+/*nav*/
+ul{height: 80px;
+
+opacity: .9}
+li{margin-top: 10px;
+}
+
+/*heading*/
+.header{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #191919;
+    opacity: .9;
+    
+}
+
+.header span{color: white;
+text-decoration: underline;}
+
+body{background-image:url("http://i.imgur.com/H6jNTnO.jpg");
+border-top: 2px solid white;}
+/*hr style*/
+
+hr {
+    display:block;
+   border:10px solid #e5e5e5;
+}
+
+@font-face{font-family: Locust;
+    src:url("../fonts/CGF Locust Resistance.ttf");}
+
+/*title font*/
+h1{
+font-family: Locust;
+color:#ffa500;
+text-align: center;
+font-weight:600;
+font-size: 120px;
+text-shadow: 10px 10px #34211d;
+}
+/*under title*/
+h2{color: white;
+text-align: center;
+text-shadow: 5px 5px #1b1a46;}
+
+/*testimonial*/
+h3{font-family: 'Open Sans', sans-serif;
+text-decoration-style: }
+
+
+/*joining is easy...footer*/
+h5{display: inline-block;
+ color: orange;
+    border-bottom: 2px solid white;
+word-spacing: -.1em;
+font-size: 40px;
+font-weight: lighter;
+font-family: 'Lora', serif;
+position: relative;
+left:500px;
+padding-top: 15px;
+}  
+/*quotes*/
+h6{color: orange;
+font-size: 24px;
+font-family: 'Slabo 27px', serif;
+
+left: 700px;}
+/*testimonial*/
+
+.testimonial{color: #ffa500;
+    font-family: 'Raleway', sans-serif;
+font-weight: bold;
+text-align: center;
+background-color: black;
+border-image: url(img/border.jpg);
+border-bottom: 2px solid white;
+margin-bottom: 20px;
+}
+
+.testimonial p{color: white;}
+
+
+span{font-weight: 900;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*nav links*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#1a1a1a;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#ffa500;
+    
+}
+/*testimonial link*/
+.testimonial a:hover{background-color: black;
+text-decoration: none;}
+
+.testimonial a:link{color:blue;}
+
+.testimonial a:visited{color: white;
+text-decoration: none;}
+
+.testimonial a:active{color: white;
+text-decoration: none;}
+
+.quotes1{display: inline-block;
+    padding:0 10px;
+margin-top: -50px;}
+
+
+/*footer*/
+
+.bottom{background-image: url("../img/bg3.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+    opacity: .9;
+    border-top: 5px solid white;
+    background-repeat: initial;
+}
+   
+
+input:focus{background-color: grey;}
+    
+    .signup2{
+        position: relative;
+        left: 700px;
+    }
+
+    form{color:white;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 2px 2px black;
+        }
+
+    input{width: 300px;
+        height: 30px;}
+
+        select{
+    height: 40px;
+    width: 70px;
+}
+
+.gender{
+    position: relative;
+    left: 750px;
+
+}
